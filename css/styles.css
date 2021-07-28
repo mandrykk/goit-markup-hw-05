@@ -96,6 +96,10 @@ img {
   font-size: 14px;
   line-height: 1.1;
   color: var(--title-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .nav-link:hover,
@@ -141,6 +145,10 @@ img {
   display: flex;
   align-items: center;
   color: var(--primary-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-link:hover,
@@ -369,6 +377,10 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links:hover {
@@ -406,6 +418,10 @@ img {
   border: 1px solid var(--border-clients-section);
   box-sizing: border-box;
   border-radius: 4px;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -421,6 +437,9 @@ img {
 
 .icons-client-company {
   fill: var(--border-clients-section);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-client-company:hover {
@@ -510,6 +529,9 @@ img {
 
 .icons-footer-networks {
   fill: var(--white-text);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-footer-networks:hover {
@@ -543,6 +565,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--second-background-color);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #filter li a.current-button {
@@ -575,6 +601,9 @@ img {
 
 .portfolio-link {
   display: inline-block;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover,
@@ -645,7 +674,7 @@ img {
 .overlay-cards-text:hover {
   opacity: 1;
 }
-/* не забыть перенести */
+/* Модальное окно*/
 
 .backdrop {
   position: fixed;
@@ -684,6 +713,10 @@ img {
   border-radius: 50%;
   background-color: var(--white-text);
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button:hover {
